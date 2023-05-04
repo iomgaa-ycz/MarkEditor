@@ -1,0 +1,55 @@
+{
+  "name": "prose-mirror-editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "prosemirror-commands": "^1.5.1",
+    "prosemirror-history": "^1.3.0",
+    "prosemirror-inputrules": "^1.2.0",
+    "prosemirror-keymap": "^1.2.1",
+    "prosemirror-markdown": "^1.10.1",
+    "prosemirror-model": "^1.19.0",
+    "prosemirror-schema-basic": "^1.2.1",
+    "prosemirror-schema-list": "^1.2.2",
+    "prosemirror-schema-table": "^0.22.0",
+    "prosemirror-state": "^1.4.2",
+    "prosemirror-transform": "^1.7.1",
+    "prosemirror-view": "^1.30.2",
+    "vue": "^3.2.36"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
